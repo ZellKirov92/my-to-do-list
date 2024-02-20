@@ -1,19 +1,50 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: hsl(40, 70%, 25%);
+    background: hsl(193, 79%, 70%);
+    min-width: 375px;
+    max-width: 1440px;
+
 }
 
 h1 {
     text-align: center;
+    font-size: 48px;
+    text-decoration: underline;
+}
+
+#taskInput {
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin: auto 10px;
+}
+
+#addTask {
+    width: 80px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    margin: auto 10px auto 5px;
+}
+
+div {
+    background-color: hsl(54, 64%, 90%);
+    margin-left: 10px;
+    width: 50%;
 }
 
 ul {
     list-style: none;
     padding: 0;
+    margin-left: 10px;
 }
 
 li {
+    text-align: left;
     margin-bottom: 10px;
+    font-size: 25px;
+    padding: auto 5px auto 10px;
 }
 
 .completed {

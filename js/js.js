@@ -19,5 +19,3 @@ addTaskButton.addEventListener('click', () => {
         });
     }
 });
-
-
