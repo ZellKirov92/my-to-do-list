@@ -45,7 +45,12 @@ div {
     align-self: center;
 }
 
-
+.checkbox {
+    margin-left: 30px;
+    text-align: right;
+    width: 20px;
+    height: 20px;
+}
 
 ul {
     word-wrap: break-word;
@@ -67,3 +72,10 @@ li {
     text-decoration: line-through;
 }
 
+.removeTask {
+    width: 40px;
+    height: 40px;
+    margin: 5px 10px 0 20px;
+    padding: 5px 5px 10px 5px;
+    background-color: hsl(0, 100%, 33%);
+}
